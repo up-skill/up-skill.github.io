@@ -43,6 +43,8 @@ margin-bottom: 0px;
 .rblock .text a{
   text-decoration:underline;
   color: #4b4ba2;
+  font-family:roboto; 
+  font-weight: 500;
 }
 
 .rblock .textline {
@@ -52,17 +54,51 @@ margin-bottom: 0px;
   opacity:0.3;
   background-color: #636363;
   margin-top: 35px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .rblock img{
-  width:350px;
+  width:80%;
   padding-left:0px;
-  border: #222629 3px solid;
-  border-radius: 3px;
+  border:0px;
+  border-radius: 10px;
   margin-left: 2%;
 
 }
 
+.rblock .link a {
+      text-align: center;
+      font-size: 20px;
+      display: block;
+      padding-left: 15px;
+      padding-top: 11px;
+      padding-right: 15px;
+      padding-bottom: 11px;
+      margin: 1px 0px 20px 10px;
+      border: solid #282b2e 0px;
+      background-color: #282b2e;
+      border-radius: 5px;
+    transition: .2s;
+    font-size: 18px;
+    text-decoration: none;
+    width: 200px;
+    float: left;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.rblock .link{
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.rblock ul{
+  list-style: none;
+  text-align: center;
+}
 
 /* header */
 
@@ -104,9 +140,10 @@ margin-bottom: 0px;
   padding-right: 15px;
   padding-bottom: 11px;
   margin: 15px 65px 15px 65px;
-  border: solid #454545 0px;
+  border: solid #282b2e 0px;
   background-color: #282b2e;
   border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   
 }
 .header li a{
@@ -313,16 +350,55 @@ margin-bottom: 0px;
     background-color: #636363;
     margin-top: 25px;
     margin-left: 16%;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
   }
   .rblock img{ 
     width:600px;
     padding-left:0px;
-    border: #222629 3px solid;
-    border-radius: 3px;
+    border:0px;
+    border-radius: 10px;
     margin-left: 16%;
   
   }
-  
+
+.rblock .link a {
+    padding-top: 16px ;
+    padding-bottom: 16px;
+      text-align: center;
+      font-size: 20px;
+      display: block;
+      padding-left: 10px;
+      padding-top: 11px;
+      padding-right: 15px;
+      padding-bottom: 11px;
+      margin: 15px 40px 15px 40px;
+      border: solid #282b2e 0px;
+      background-color: #282b2e;
+      border-radius: 5px;
+    transition: .2s;
+    font-size: 18px;
+    text-decoration: none;
+    width: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+
+
+    
+}
+
+.rblock .link a:hover{
+  opacity: 0.7;
+  transition: .2s;
+}
+.rblock .link {
+  display: block;
+  padding-left: 14%;
+  padding-top: 0px;
+
+}
+
 }
 
 hr{
@@ -342,5 +418,4 @@ opacity: 0.1;
 
     
 }
-
 
