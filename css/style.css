@@ -99,6 +99,8 @@ margin-bottom: 0px;
   color: #FFFFFF;
   text-align: center;
   font-size: 15px;
+  font-family:roboto;
+  font-weight: 500;
   padding: 10px;
   width: 110px;
   transition: all 0.5s;
@@ -106,7 +108,7 @@ margin-bottom: 0px;
   margin: 15px;
 
 }
-a{
+.button a{
   text-decoration: none;
 }
 .video{
