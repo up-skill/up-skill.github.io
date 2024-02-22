@@ -94,7 +94,7 @@ margin-bottom: 0px;
 .button {
   display: inline-block;
   border-radius: 5%;
-  background-color: #4e55a7;
+  background-color: #222629;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -106,7 +106,9 @@ margin-bottom: 0px;
   margin: 15px;
 
 }
-
+a{
+  text-decoration: none;
+}
 .video{
   padding-left: 0px;
 }
